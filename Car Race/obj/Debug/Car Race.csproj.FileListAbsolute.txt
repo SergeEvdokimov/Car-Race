@@ -1,0 +1,9 @@
+C:\Users\Сергей\Desktop\Car Race ч.2\Car Race\bin\Debug\Car Race.exe.config
+C:\Users\Сергей\Desktop\Car Race ч.2\Car Race\bin\Debug\Car Race.exe
+C:\Users\Сергей\Desktop\Car Race ч.2\Car Race\bin\Debug\Car Race.pdb
+C:\Users\Сергей\Desktop\Car Race ч.2\Car Race\obj\Debug\Car Race.csprojAssemblyReference.cache
+C:\Users\Сергей\Desktop\Car Race ч.2\Car Race\obj\Debug\Car_Race.Form1.resources
+C:\Users\Сергей\Desktop\Car Race ч.2\Car Race\obj\Debug\Car_Race.Properties.Resources.resources
+C:\Users\Сергей\Desktop\Car Race ч.2\Car Race\obj\Debug\Car Race.csproj.GenerateResource.cache
+C:\Users\Сергей\Desktop\Car Race ч.2\Car Race\obj\Debug\Car Race.exe
+C:\Users\Сергей\Desktop\Car Race ч.2\Car Race\obj\Debug\Car Race.pdb
