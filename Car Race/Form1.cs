@@ -35,10 +35,13 @@ namespace Car_Race
             int x;
             for (int i = 0; i < coins.Length; i++)
             {
-
                 if (coins[i].Top >= this.Height)
                 {
-                    x = random.Next(pbBondLeft.Right, pbBondRight.Left);
+                    x = random.Next(pbBondLeft.Right + 50, pbBondRight.Left - 50);
+                    while (x >= 155 && x <= 215)
+                    {
+                        x = random.Next(pbBondLeft.Right + 50, pbBondRight.Left - 50);
+                    }
                     coins[i].Location = new Point(x, -coins[i].Height);
                 }
                 else
@@ -55,7 +58,11 @@ namespace Car_Race
 
                 if (enemys[i].Top >= this.Height)
                 {
-                    x = random.Next(pbBondLeft.Right, pbBondRight.Left);
+                    x = random.Next(pbBondLeft.Right + 50, pbBondRight.Left - 50);
+                    while (x >= 155 && x <= 215)
+                    {
+                        x = random.Next(pbBondLeft.Right + 50, pbBondRight.Left - 50);
+                    }
                     enemys[i].Location = new Point(x, -enemys[i].Height);
                 }
                 else
@@ -128,7 +135,11 @@ namespace Car_Race
             int x;
             for(int i = 0; i < enemys.Length; i ++)
             {
-                x = random.Next(pbBondLeft.Right, pbBondRight.Left);
+                x = random.Next(pbBondLeft.Right + 50, pbBondRight.Left - 50);
+                while (x >= 155 && x <= 215)
+                {
+                    x = random.Next(pbBondLeft.Right + 50, pbBondRight.Left - 50);
+                }
                 enemys[i].Location = new Point(x,startY);
                 startY -= this.Height / enemys.Length;
             }

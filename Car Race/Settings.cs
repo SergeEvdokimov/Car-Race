@@ -9,10 +9,10 @@ namespace Car_Race
     class Settings
     {
         public static int TimerSpeed;
-        public static float GameSpeed;
         public static int CarTurnSpeed;
         public static bool IsGameOver;
-        public static float  MinSpeed;
+        public static float GameSpeed;
+        public static float MinSpeed;
         public static float MaxSpeed;
         public Settings()
         {
